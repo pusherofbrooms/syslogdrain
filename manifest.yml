@@ -1,0 +1,9 @@
+---
+applications:
+- name: syslogdrain-johnj
+  domain: cn1.philips-healthsuite.com.cn
+  buildpack: python_buildpack
+#  buildpack: git://github.com/cloudfoundry/python-buildpack.git
+  command: python hello.py
+#  instances: 2
+#  no-route: true
