@@ -1,6 +1,6 @@
 ---
 applications:
-- name: syslogdrain-johnj
+- name: syslogdrain
   domain: cn1.philips-healthsuite.com.cn
   buildpack: python_buildpack
 #  buildpack: git://github.com/cloudfoundry/python-buildpack.git
